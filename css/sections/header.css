@@ -1,0 +1,21 @@
+.header_nav {
+	padding: 50px 50px;
+}
+
+.nav_links li a {
+	font-family: var(--ff-poppins);
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-inline: 40px;
+	cursor: pointer;
+}
+
+.nav_cta li img {
+	width: 24px;
+	height: 24px;
+	margin-inline: 10px;
+	cursor: pointer;
+}
+
