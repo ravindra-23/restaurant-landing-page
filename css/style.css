@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+
+:root {
+	--ff-poppins: 'Poppins', sans-serif;
+	--ff-abhaya: 'Abhaya Libre', serif;
+
+	--clr-primary: #EA0000;
+	--clr-secondary: #2A333E;
+	--clr-white: #fff;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: var(--clr-white);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* UTILITIES CLASSES */
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
