@@ -1,0 +1,94 @@
+.products {
+	flex-direction: column;
+	padding: 100px 50px;
+}
+
+.products_subtitle {
+	text-align: center;
+	font-family: var(--ff-poppins);
+	color: var(--clr-secondary);
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.4px;
+	text-transform: uppercase;
+}
+
+.products_title {
+	font-family: var(--ff-abhaya);
+	color: var(--clr-primary);
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 100px;
+	letter-spacing: -6.4px;
+	margin-bottom: 100px;
+}
+
+.products_description {
+	width: 100%;
+}
+
+.product {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-inline: 20px;
+}
+
+.rating {
+	width: 80px;
+	height: 15px;
+	display: block;
+	text-align: center;
+	margin-block: 30px;
+}
+
+.product-style {
+	font-family: var(--ff-poppins);
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	color: var(--clr-secondary);
+}
+
+.product-name {
+	font-family: var(--ff-poppins);
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	color: var(--clr-secondary);
+	margin: 15px 0 40px 0;
+}
+
+.product-image {
+	filter: drop-shadow(5px 5px 5px #666666);
+}
+
+
+.cta {
+	padding: 13px 40px;
+	display: inline-block;
+	background: var(--clr-primary);
+	color: var(--clr-white);
+	font-family: var(--ff-poppins);
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	border: none;
+	fill: var(--red, #EA0000);
+	transform: skew(-20deg);
+	border-radius: 10px;
+	filter: drop-shadow(0px 1.8518518209457397px 3.1481480598449707px rgba(234, 0, 37, 0.02)) drop-shadow(0px 8.148148536682129px 6.518518447875977px rgba(234, 0, 37, 0.04)) drop-shadow(0px 20px 13px rgba(234, 0, 37, 0.05)) drop-shadow(0px 38.51852035522461px 25.481481552124023px rgba(234, 0, 37, 0.06)) drop-shadow(0px 64.81481170654297px 46.85185241699219px rgba(234, 0, 37, 0.08)) drop-shadow(0px 100px 80px rgba(234, 0, 37, 0.10));
+}
+
+.cta > span {
+	display: inline-block;
+	transform: skewX(20deg);
+}
